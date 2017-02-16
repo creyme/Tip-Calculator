@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 - [x] Automatically detects the user’s currency.
 - [x] Gradient background and simple “get the task done” interface.
 - [x] Rounds up total bill and automatically adjusts the tip value (on swipe to right gesture) then changes back to unrounded total (on swipe to left gesture).
-- [x] Split bill up to 100.
+- [x] Splits the bill up to 100.
 - [x] Clears all text fields and labels when there is no bill entered.
 - [x] Customize the values of tip percentage and save as user default settings.
 - [x] Restore app default settings (18%, 20%, 25%).
