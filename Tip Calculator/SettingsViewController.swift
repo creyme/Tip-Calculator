@@ -79,11 +79,11 @@ class SettingsViewController: UIViewController, UINavigationControllerDelegate {
             if option2User == savedOption2 as? Int && option3User == savedOption3 as? Int {
                 defaultSettingsisOn = false
             } else {
-                print("error restoring to default settings")
+                print("error saving custom settings")
             }
             
         } else {
-            print("error restoring to default settings")
+            print("error saving custom settings")
         }
 
         
