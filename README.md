@@ -20,8 +20,8 @@ The following **additional** features are implemented:
 
 - [x] App Icon and Launch screen
 - [x] AutoLayout (compatible in all iPhone devices in portrait mode)
-- [x] Automatically detects if screen size is too small, then ‘keyboard is always visible feature’ is disabled and lets the user tap on screen to hide keyboard.
-- [x] Automatically detects the user’s currency.
+- [x] Automatically detects if screen size is too small (iPhone5, SE, and lower) - then ‘keyboard is always visible feature’ is disabled and lets the user tap on screen to hide keyboard.
+- [x] Automatically detects the user’s currency and implements thoudands separator.
 - [x] Gradient background and simple “get the task done” interface.
 - [x] Rounds up total bill and automatically adjusts the tip value (on swipe to right gesture) then changes back to unrounded total (on swipe to left gesture).
 - [x] Splits the bill up to 100.
@@ -33,8 +33,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+Shows all the required and optional features, as well as the round up and split bill features.
 ![gif #1](TipCalculatorDEMO1.gif)
+
+Shows automatic detection of currency and format.
 ![gif #2](TipCalculatorDEMO2.gif)
+
+Shows ability to save custom tip percentage and be able to restore to the application default settings.
 ![gif #3](TipCalculatorDEMO3.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
@@ -48,7 +53,7 @@ The best and most challenging part was the UX design process:
   This person always uses a tip calculator when he’s dining out.
   He wants a fast, simple, clutter-free, and easy to read interface — an application that just lets you do your task and be done with it right away.
   After using a tip calculator, he recomputes the tip to round up the total bill into exact dollar bills.
-  He travels into different countries and use the appropriate currencies and gratuities.
+  He travels into different countries and uses the appropriate currencies and gratuities.
 
 Adding the special features for this app took some time, but with the vast source of information and solutions online.
 I was able to complete the features that my target user would need in a tip calculator app.
