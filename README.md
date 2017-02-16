@@ -21,7 +21,7 @@ The following **additional** features are implemented:
 - [x] App Icon and Launch screen
 - [x] AutoLayout (compatible in all iPhone devices in portrait mode)
 - [x] Automatically detects if screen size is too small (iPhone5, SE, and lower) - then ‘keyboard is always visible feature’ is disabled and lets the user tap on screen to hide keyboard.
-- [x] Automatically detects the user’s currency and implements thoudands separator.
+- [x] Automatically detects the user’s currency and implements thousands separator.
 - [x] Gradient background and simple “get the task done” interface.
 - [x] Rounds up total bill and automatically adjusts the tip value (on swipe to right gesture) then changes back to unrounded total (on swipe to left gesture).
 - [x] Splits the bill up to 100.
